@@ -1,0 +1,50 @@
+
+
+
+nav {
+    display: grid;
+    background: transparent;
+    justify-content: right;
+    margin-right:5%;}
+  
+  nav ul {
+    list-style: none; 
+    display: flex; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav a {
+    text-decoration: none; 
+    padding: 10px; 
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+    display: block; 
+    margin-left: 50px;
+  }
+  
+  nav a:hover{
+    opacity: 1;
+    background-color: #fff; 
+    color: #000;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    max-width: 500px;
+    padding: 0px 20px;
+    background-color:#9D5718;
+    color: #fff;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
